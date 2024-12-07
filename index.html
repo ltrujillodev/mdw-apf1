@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MESA FÁCIL :: Inicio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NAVEGACION -->
+    <header>
+      <nav class="navbar navbar-expand-lg contenedor-navegacion">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="img/logo-mesa-facil.png"
+              alt="Logo"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-center fs-4 gap-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link custom-link"
+                  aria-current="page"
+                  href="index.html#inicio"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-link" href="index.html#negocios"
+                  >Para negocios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-link" href="index.html#usuario"
+                  >Para ti</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-link" href="index.html#preguntas"
+                  >Preguntas</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-link" href="index.html#descarga"
+                  >Descarga</a
+                >
+              </li>
+              <a
+                href="https://api.whatsapp.com/send/?phone=51932101741&text&type=phone_number&app_absent=0"
+                class="whatsapp-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- INICIO -->
+      <div id="inicio" class="my-5 py-5">
+        <div class="container">
+          <div
+            class="row align-items-center justify-content-center justify-content-lg-between"
+          >
+            <div class="mb-3 col-lg-6 col-md-10">
+              <h1 class="fw-bold lh-sm mb-4">
+                Con <span class="text-warning">MESA FÁCIL</span> reservas tu
+                mesa perfecta en tan solo segundos...
+              </h1>
+              <p class="fs-5 mb-5">
+                Encuentra y reserva tu mesa en los mejores restaurantes con solo
+                unos clics. <br />Simplifica tu experiencia gastronómica y
+                asegúrate un lugar en tu restaurante favorito sin
+                complicaciones.
+              </p>
+
+              <ul class="d-flex justify-content-center gap-5 list-unstyled">
+                <li>
+                  <!-- MODAL 1 -->
+                  <!-- MODAL BOTON APERTURA -->
+                  <div>
+                    <button
+                      type="button"
+                      class="px-3 py-2 btn btn-warning text-dark fw-bold fs-5"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modal-texto"
+                    >
+                      Conoce más
+                    </button>
+                  </div>
+                  <!-- MODAL CONTENIDO -->
+                  <div
+                    id="modal-texto"
+                    class="modal fade"
+                    data-bs-backdrop="static"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <!-- MODAL HEADER -->
+                        <div class="modal-header">
+                          <h5 class="modal-title fw-bold">
+                            Una idea de nuestro servicio
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                          ></button>
+                        </div>
+                        <!-- MODAL BODY -->
+                        <div class="modal-body">
+                          <p class="fs-5">
+                            <span class="text-warning fw-bold">MESA FÁCIL</span
+                            >&nbsp;simplifica el proceso de reservas y la
+                            gestión de servicios de catering para tu
+                            restaurante.
+                            <br />
+                            <br />
+                            Una vez que te registres en nuestra plataforma,
+                            podrás configurar fácilmente tu menú, gestionar las
+                            reservas de mesas, y ofrecer servicios de catering
+                            personalizados. Los clientes podrán realizar pedidos
+                            de catering directamente desde el sistema,
+                            seleccionando platos, estableciendo cantidades y
+                            programando fechas de entrega.
+                            <br />
+                            <br />
+                            Tú recibirás notificaciones automáticas de cada
+                            solicitud, permitiéndote organizar los preparativos
+                            con anticipación y asegurar un servicio puntual y de
+                            alta calidad.
+                            <br />
+                            <br />
+                            Con
+                            <span class="text-warning fw-bold">MESA FÁCIL</span
+                            >&nbsp;, no solo optimizas la ocupación de tu
+                            restaurante, sino que también amplías tu oferta con
+                            un servicio de catering eficiente y fácil de
+                            gestionar.
+                          </p>
+                        </div>
+                        <!-- MODAL FOOTER -->
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-warning text-dark fw-bold fs-5"
+                            data-bs-dismiss="modal"
+                          >
+                            Cerrar
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <!-- MODAL 2 -->
+                  <!-- MODAL BOTON APERTURA -->
+                  <div>
+                    <button
+                      type="button"
+                      class="btn btn-warning"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modal-video"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-player-play-filled"
+                        width="32"
+                        height="32"
+                        viewBox="0 0 24 24"
+                        stroke-width="0.5"
+                        stroke="#fd0061"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                          d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z"
+                          stroke-width="0"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                  <!-- MODAL CONTENIDO -->
+                  <div class="modal" id="modal-video">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <!-- MODAL HEADER -->
+                        <div class="modal-header">
+                          <h5 class="modal-title fw-bold">
+                            Mira nuestra forma de trabajo
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                          ></button>
+                        </div>
+                        <!-- MODAL BODY -->
+                        <div class="modal-body">
+                          <div class="embed-responsive embed-responsive-16by9">
+                            <iframe
+                              class="embed-responsive-item"
+                              src="https://www.youtube.com/embed/ZHkyea8Gf3c"
+                              width="100%"
+                              height="540"
+                              frameborder="0"
+                              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                              allowfullscreen
+                            ></iframe>
+                          </div>
+                        </div>
+                        <!-- MODAL FOOTER -->
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-warning text-dark fw-bold fs-5"
+                            data-bs-dismiss="modal"
+                          >
+                            Cerrar
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <img class="img-fluid" src="img/main-reserva.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="my-5 py-5">
+        <div class="container">
+          <div class="row justify-content-center mb-5">
+            <div class="col-xl-6 col-lg-7">
+              <div class="text-center mb-30">
+                <p class="h1 mb-25 fw-bold">
+                  ¿Por qué
+                  <span class="text-warning fw-bold">MESA FÁCIL</span>?
+                </p>
+                <p class="fs-5">
+                  <span class="text-warning fw-bold">MESA FÁCIL</span>
+                  simplifica el proceso de encontrar y reservar mesas en tus
+                  restaurantes favoritos, eliminando la necesidad de largas
+                  esperas.
+                  <br />
+                  Nuestra plataforma te ofrece acceso instantáneo a una amplia
+                  variedad de restaurantes, permitiéndote elegir el lugar
+                  perfecto según tus preferencias. Además, garantizamos una
+                  experiencia de usuario intuitiva y rápida, para que puedas
+                  centrarte en lo que realmente importa:
+                  <strong class="fst-italic">disfrutar de tu comida</strong>.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-4">
+              <div class="text-center">
+                <figure class="figure">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-login-2"
+                    width="100"
+                    height="100"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="rgba(var(--bs-warning-rgb))"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                      d="M9 8v-2a2 2 0 0 1 2 -2h7a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-7a2 2 0 0 1 -2 -2v-2"
+                    />
+                    <path d="M3 12h13l-3 -3" />
+                    <path d="M13 15l3 -3" />
+                  </svg>
+                </figure>
+              </div>
+              <div class="text-center mb-30">
+                <p class="h4 mb-3 fw-bold">Acceder y hacer pedido</p>
+                <p class="fs-5">
+                  Regístrate en minutos y realiza tu pedido de forma rápida y
+                  sencilla.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-10 col-lg-4">
+              <div class="text-center">
+                <figure class="figure">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-clock"
+                    width="100"
+                    height="100"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="rgba(var(--bs-warning-rgb))"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M12 7v5l3 3" />
+                  </svg>
+                </figure>
+              </div>
+              <div class="text-center mb-30">
+                <p class="h4 mb-3 fw-bold">Ahorro de tiempo</p>
+                <p class="fs-5">
+                  Optimiza tu tiempo gestionando tus reservas y pedidos en un
+                  solo lugar con unos pocos clics.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-10 col-lg-4">
+              <div class="text-center">
+                <figure class="figure">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-truck-delivery"
+                    width="100"
+                    height="100"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="rgba(var(--bs-warning-rgb))"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                    <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                    <path
+                      d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5"
+                    />
+                    <path d="M3 9l4 0" />
+                  </svg>
+                </figure>
+              </div>
+              <div class="text-center mb-30">
+                <p class="h4 mb-3 fw-bold">Envío gratuito</p>
+                <p class="fs-5">
+                  Disfruta de envío gratuito en todos tus pedidos, garantizando
+                  ahorro y satisfacción.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FIN INICIO -->
+
+      <!------INICIO => Para Negocio------->
+      <section class="container-negocios mb-5" id="negocios">
+        <!-- primra parte -->
+        <div class="container px-4 py-5">
+          <div class="text-center">
+            <p class="h1 pb-2 border-bottom text-light mb-5 fw-bold">
+              Para Negocios
+            </p>
+          </div>
+          <div class="row justify-content-center">
+            <div
+              class="col-md-6 d-flex flex-column align-items-center gap-2 columna-izquierda--negocios"
+            >
+              <h2 class="fw-bold text-white text-center">
+                Reserva y disfruta una
+                <br />
+                experiencia exclusiva con
+                <span class="text-warning">MESA FÁCIL</span>
+              </h2>
+              <p class="text-white text-center fs-4">
+                <span class="text-warning fw-bold">MESA FÁCIL</span> te permite
+                mejorar la gestión de reservas en tu restaurante, optimizando la
+                ocupación y garantizando la satisfacción de tus clientes.
+                Aumenta la lealtad de los comensales con promociones exclusivas
+                y análisis de datos precisos.
+              </p>
+              <a
+                href="#registrar-ahora"
+                class="btn btn btn-outline-warning fw-bold btn-lg mt-3 mb-5"
+                >¡Regístrate hoy!</a
+              >
+            </div>
+          </div>
+
+          <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
+            <!-- Añadimos justify-content-center -->
+            <div class="col">
+              <div class="card text-center p-4 columna-negocios text-light">
+                <div class="card-body">
+                  <div class="icon mb-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-user-plus"
+                      width="100"
+                      height="100"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="rgba(var(--bs-warning-rgb))"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+                      <path d="M16 19h6" />
+                      <path d="M19 16v6" />
+                      <path d="M6 21v-2a4 4 0 0 1 4 -4h4" />
+                    </svg>
+                  </div>
+                  <h5 class="card-title fs-4">
+                    Incrementa clientes frecuentes
+                  </h5>
+                  <p class="card-text fs-5">
+                    Aumenta la recurrencia de tus clientes y maximiza la
+                    ocupación del restaurante.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card text-center p-4 columna-negocios text-light">
+                <div class="card-body">
+                  <div class="icon mb-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-chart-area-line"
+                      width="100"
+                      height="100"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="rgba(var(--bs-warning-rgb))"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M4 19l4 -6l4 2l4 -5l4 4l0 5l-16 0" />
+                      <path d="M4 12l3 -4l4 2l5 -6l4 4" />
+                    </svg>
+                  </div>
+                  <h5 class="card-title fs-4">Análisis de datos del cliente</h5>
+                  <p class="card-text fs-5">
+                    Recopila información valiosa sobre el comportamiento de tus
+                    comensales.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card text-center p-4 columna-negocios text-light">
+                <div class="card-body">
+                  <div class="icon mb-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-shield-star"
+                      width="100"
+                      height="100"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="rgba(var(--bs-warning-rgb))"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path
+                        d="M11.143 20.743a12 12 0 0 1 -7.643 -14.743a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3c.504 1.716 .614 3.505 .343 5.237"
+                      />
+                      <path
+                        d="M17.8 20.817l-2.172 1.138a.392 .392 0 0 1 -.568 -.41l.415 -2.411l-1.757 -1.707a.389 .389 0 0 1 .217 -.665l2.428 -.352l1.086 -2.193a.392 .392 0 0 1 .702 0l1.086 2.193l2.428 .352a.39 .39 0 0 1 .217 .665l-1.757 1.707l.414 2.41a.39 .39 0 0 1 -.567 .411l-2.172 -1.138z"
+                      />
+                    </svg>
+                  </div>
+                  <h5 class="card-title fs-4">Diferenciación competitiva</h5>
+                  <p class="card-text fs-5">
+                    Destaca frente a la competencia ofreciendo un servicio
+                    rápido y eficiente.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card text-center p-4 columna-negocios text-light">
+                <div class="card-body">
+                  <div class="icon mb-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-list-check"
+                      width="100"
+                      height="100"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="rgba(var(--bs-warning-rgb))"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M3.5 5.5l1.5 1.5l2.5 -2.5" />
+                      <path d="M3.5 11.5l1.5 1.5l2.5 -2.5" />
+                      <path d="M3.5 17.5l1.5 1.5l2.5 -2.5" />
+                      <path d="M11 6l9 0" />
+                      <path d="M11 12l9 0" />
+                      <path d="M11 18l9 0" />
+                    </svg>
+                  </div>
+                  <h5 class="card-titl fs-4">Mejora continua en servicios</h5>
+                  <p class="card-text fs-5">
+                    Tu opinión ayuda a mejorar continuamente la experiencia en
+                    nuestros restaurantes.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Segunda parte -->
+        <div class="container px-4 py-5" id="icon-grid">
+          <p class="h1 pb-2 border-bottom text-center text-light mb-5">
+            Negocios que ya confian en nosotros
+          </p>
+          <p class="align-items-center text-center text-light fs-4">
+            Empresas líderes ya han depositado su confianza en nosotros para
+            optimizar sus reservas y mejorar la experiencia de sus clientes.
+            Únete a la red de negocios que han simplificado su gestión con
+            <span class="text-warning fw-bold">MESA FÁCIL</span>.
+            <br />
+            ¡Tu éxito es nuestra prioridad!
+          </p>
+
+          <div
+            class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1 g-4 py-5 align-items-center"
+          >
+            <marquee
+              behavior="alternate"
+              direction=""
+              scrolldelay="5"
+              loop="10"
+            >
+              <img
+                class="img-fluid w-lg-75 w-md-100"
+                src="img/negocio-1.png"
+                alt="Netflix"
+              />
+              <img
+                class="img-fluid w-lg-75 w-md-100"
+                src="img/negocio-2.png"
+                alt="Netflix"
+              />
+              <img
+                class="img-fluid w-lg-75 w-md-100"
+                src="img/negocio-3.png"
+                alt="Netflix"
+              />
+              <img
+                class="img-fluid w-lg-75 w-md-100"
+                src="img/negocio-4.png"
+                alt="Netflix"
+              />
+              <img
+                class="img-fluid w-lg-75 w-md-100"
+                src="img/negocio-1.png"
+                alt="Netflix"
+              />
+              <img
+                class="img-fluid w-lg-75 w-md-100"
+                src="img/negocio-2.png"
+                alt="Netflix"
+              />
+              <img
+                class="img-fluid w-lg-75 w-md-100"
+                src="img/negocio-3.png"
+                alt="Netflix"
+              />
+              <img
+                class="img-fluid w-lg-75 w-md-100"
+                src="img/negocio-4.png"
+                alt="Netflix"
+              />
+            </marquee>
+          </div>
+        </div>
+        <!-- Tercera parte -->
+        <div id="para-negocios mb-5">
+          <div class="container">
+            <h2 class="h1 pb-2 border-bottom text-center text-light mb-5">
+              Regístrate y únete a nuestra comunidad
+            </h2>
+            <p class="align-items-center text-center text-light fs-4">
+              ¡Regístrate ahora y forma parte de nuestra comunidad exclusiva!
+              Disfruta de beneficios especiales, accede a promociones únicas y
+              recibe las últimas novedades directamente en tu correo. ¡No te lo
+              pierdas!
+            </p>
+            <br />
+
+            <div class="text-center mb-4 Botón-Regístrate-Ahora">
+              <button
+                id="registrar-ahora"
+                onclick="document.getElementById('preinscripcion-form').style.display='block'"
+                class="btn btn-outline-warning btn-lg mb-5 fw-bold"
+              >
+                Regístrate Ahora
+              </button>
+            </div>
+
+            <!-- Formulario -->
+            <div
+              id="preinscripcion-form"
+              class="mb-5 pb-5"
+              style="display: none"
+            >
+              <form
+                id="registrationForm"
+                class="p-4 border rounded columna-negocios"
+              >
+                <div class="mb-3">
+                  <label
+                    for="firstName"
+                    class="form-label text-white fs-5 fw-bold"
+                    >Nombre</label
+                  >
+                  <input
+                    type="text"
+                    id="firstName"
+                    name="firstName"
+                    class="form-control"
+                    placeholder="Ingresa tu nombre"
+                    maxlength="40"
+                    required
+                  />
+                  <small class="form-text validacion"
+                    >Solo se permiten hasta 40 caracteres.</small
+                  >
+                  <span class="error text-danger" id="firstNameError"></span>
+                </div>
+
+                <div class="mb-3">
+                  <label
+                    for="lastName"
+                    class="form-label text-white fs-5 fw-bold"
+                    >Apellido</label
+                  >
+                  <input
+                    type="text"
+                    id="lastName"
+                    name="lastName"
+                    class="form-control"
+                    placeholder="Ingresa tu apellido"
+                    maxlength="40"
+                    required
+                  />
+                  <small class="form-text validacion"
+                    >Solo se permiten hasta 40 caracteres.</small
+                  >
+                  <span class="error text-danger" id="lastNameError"></span>
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label text-white fs-5 fw-bold"
+                    >Correo Electrónico</label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-control"
+                    placeholder="Ingresa tu correo electrónico"
+                    required
+                  />
+                  <small class="form-text validacion"
+                    >Ingresa un correo electrónico válido.</small
+                  >
+                  <span class="error text-danger" id="emailError"></span>
+                </div>
+
+                <div class="mb-3">
+                  <label for="phone" class="form-label text-white fs-5 fw-bold"
+                    >Teléfono</label
+                  >
+                  <input
+                    type="text"
+                    id="phone"
+                    name="phone"
+                    class="form-control"
+                    placeholder="Ingresa tu teléfono"
+                    pattern="[0-9]{9}"
+                    required
+                  />
+                  <small class="form-text validacion"
+                    >Solo se permiten 9 dígitos.</small
+                  >
+                  <span class="error text-danger" id="phoneError"></span>
+                </div>
+
+                <div class="mb-3">
+                  <label
+                    for="description"
+                    class="form-label text-white fs-5 fw-bold"
+                    >Descripción del Negocio</label
+                  >
+                  <textarea
+                    id="description"
+                    name="description"
+                    class="form-control"
+                    placeholder="Danos una descripción de tu negocio"
+                    maxlength="200"
+                    required
+                  ></textarea>
+                  <small class="form-text validacion"
+                    >Hasta 200 caracteres.</small
+                  >
+                  <span class="error text-danger" id="descriptionError"></span>
+                </div>
+
+                <div class="form-check mb-3">
+                  <input
+                    type="checkbox"
+                    id="terms"
+                    name="terms"
+                    class="form-check-input"
+                    required
+                  />
+                  <label
+                    class="form-check-label fs-5 fw-bold text-light"
+                    for="terms"
+                    >Acepto los términos y condiciones</label
+                  >
+                  <span class="error text-danger" id="termsError"></span>
+                </div>
+
+                <div class="text-center">
+                  <button
+                    type="submit"
+                    class="btn btn btn-outline-warning fw-bold fs-5"
+                  >
+                    Registrar
+                  </button>
+                </div>
+              </form>
+              <br />
+            </div>
+
+            <div id="confirmationModal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Sus datos fueron enviados exitosamente.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------FIN => Para Negocio------->
+
+      <br />
+
+      <!-- USUARIO -->
+      <section id="usuario" class="pt-75 pb-75 mb-5 mt-5">
+        <div class="container">
+          <div
+            class="row align-items-center justify-content-center justify-content-lg-between"
+          >
+            <div class="col-lg-4 col-md-6 mb-5">
+              <div class="mb-3">
+                <img class="img-fluid" src="img/usuario-app.jpg" alt="" />
+              </div>
+              <br />
+              <div class="text-center">
+                <a
+                  class="px-3 py-2 btn btn-warning fw-bold fs-5"
+                  href="https://play.google.com/store/apps/details?id=com.grability.rappi"
+                  role="button"
+                  target="_blank"
+                  >¡Descarga la app!</a
+                >
+              </div>
+            </div>
+
+            <div class="mb-3 col-lg-6 col-md-10">
+              <div>
+                <p class="fs-2 fw-bold lh-sm mb-4">
+                  ¡Descarga <span class="text-warning">MESA FÁCIL</span>!
+                </p>
+                <p class="fs-5 mb-4">
+                  Somos la única aplicación que te premia con puntos por cada
+                  reserva que realices. Canjea tus puntos en tu restaurant
+                  favorito. Además, te brindamos descuentos exclusivos, ofertas
+                  y promociones.
+                  <br />
+                  <span class="text-warning fw-bold">MESA FÁCIL</span> hace que
+                  tu experiencia sea única.
+                </p>
+              </div>
+
+              <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img
+                      src="img/usuario-descarga-app.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Descarga nuestra app</h5>
+                      <p class="card-text">
+                        Vive nueva experiencia con nuestra app.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card">
+                    <img
+                      src="img/usuario-registro.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Regístrate en segundos</h5>
+                      <p class="card-text">
+                        Completa el formulario y accede a nuevas experiencias.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card">
+                    <img
+                      src="img/usuario-reserva.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Haz tu reserva</h5>
+                      <p class="card-text">
+                        Reserva en tu lugar favorito desde nuestra app.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card">
+                    <img
+                      src="img/usuario-beneficios.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Obtén beneficios</h5>
+                      <p class="card-text">
+                        Con cada reserva sumas puntos para poder canjearlos.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- USUARIO -->
+
+      <!------INICIO => Preguntas Frecuentes------->
+      <section
+        id="preguntas"
+        class="faq-section pt-120 container-preguntas-frecuentes"
+        data-scroll-index="3"
+      >
+        <div class="container">
+          <!-- Título de la sección -->
+          <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-7">
+              <div class="section-title text-center mb-5">
+                <p
+                  class="h1 pb-2 border-bottom text-light mt-5 mb-5"
+                  data-wow-delay=".2s"
+                >
+                  <span>Preguntas frecuentes</span>
+                </p>
+                <p
+                  class="mb-25 wow fadeInUp text-light fs-4"
+                  data-wow-delay=".3s"
+                >
+                  Encuentra respuestas rápidas y claras
+                  <br />
+                  para usar
+                  <span class="text-warning fw-bold">MESA FÁCIL</span> de manera
+                  eficiente
+                  <br />
+                  y disfruta de sus múltiples beneficios.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contenido de las preguntas frecuentes y la imagen -->
+          <div class="row align-items-center">
+            <!-- Columna de las preguntas -->
+            <div class="col-lg-6 d-flex align-items-center">
+              <div
+                class="accordion wow fadeInLeftBig"
+                id="accordionExample"
+                data-wow-duration="3s"
+                data-wow-delay="0.5s"
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button collapsed fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="false"
+                      aria-controls="collapseOne"
+                    >
+                      ¿Cómo puedo reservar una mesa con Mesa Fácil?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <strong>Es muy sencillo.</strong> Abre nuestra aplicación,
+                      selecciona tu restaurante preferido, elige el horario y
+                      número de personas. Confirma la reserva y recibirás una
+                      notificación de confirmación.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      ¿Dónde puedo ver mis reservas pasadas?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <strong> En la sección Reservas.</strong> Puedes ver tus
+                      reservas pasadas iniciando sesión en la aplicación y
+                      navegando a la sección Mis Reservas. Allí tendrás el
+                      historial completo de tus visitas.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      ¿Qué hago si tengo problemas con mi reserva?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <strong
+                        >Contáctanos desde en la aplicación o envíanos un
+                        correo.</strong
+                      >
+                      Nuestro equipo de soporte estará encantado de ayudarte.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Columna de la imagen -->
+            <div class="col-lg-6 d-flex justify-content-center">
+              <div
+                class="faq-image wow fadeInRightBig text-center"
+                data-wow-duration="3s"
+                data-wow-delay="0.5s"
+              >
+                <img
+                  src="img/preguntas-frecuentes.png"
+                  alt="Ilustración Preguntas Frecuentes"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------FIN => Preguntas Frecuentes------->
+
+      <!-- DESCARGA -->
+      <section id="descarga" class="pt-75 pb-75 mt-5 mb-5">
+        <div class="container">
+          <div
+            class="row align-items-center justify-content-center justify-content-lg-between"
+          >
+            <div class="col-lg-4 col-md-6">
+              <div class="mb-5">
+                <img class="img-fluid" src="img/descarga-order.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="mb-3 col-lg-6 col-md-10">
+              <div>
+                <p class="fs-2 fw-bold lh-sm mb-4">
+                  Descarga nuestra app
+                  <br />
+                  y ordena en tu lugar favorito
+                </p>
+                <p class="fs-5 mb-4">
+                  Entra a la tienda de aplicaciones de tu dispositivo móvil
+                  <br />
+                  y descarga
+                  <span class="text-warning fw-bold">MESA FÁCIL</span> y vive
+                  una experiencia única.
+                </p>
+              </div>
+
+              <div>
+                <ul class="d-flex justify-content-center gap-5 list-unstyled">
+                  <li>
+                    <div>
+                      <a
+                        class="btn btn-dark text-dark fw-bold fs-5"
+                        href="https://apps.apple.com/co/app/rappi-s%C3%BAper-y-comida-online/id984044296"
+                        target="_blank"
+                      >
+                        <img src="img/descarga-apple.png" alt="" />
+                      </a>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div>
+                      <a
+                        class="btn btn-dark text-dark fw-bold fs-5"
+                        href="https://play.google.com/store/apps/developer?id=Rappi,+Inc+-+Delivery&hl=es_PE"
+                        target="_blank"
+                      >
+                        <img src="img/descarga-android.png" alt="" />
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- DESCARGA -->
+    </main>
+
+    <!-- FOOTER -->
+    <footer
+      class="text-center text-lg-start text-light"
+      style="background-color: #070d1b"
+    >
+      <div class="container p-4 pb-0">
+        <section class="">
+          <div class="row">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <a class="navbar-brand" href="index.html">
+                <img
+                  src="img/logo-mesa-facil.png"
+                  alt="Logo"
+                  class="d-inline-block align-text-top"
+                />
+              </a>
+              <p class="mt-3">
+                Tu solución rápida y sencilla para reservar mesas en tus
+                restaurantes favoritos. Facilita tus comidas sin complicaciones.
+                ¡Reserva ya y disfruta sin esperas!
+              </p>
+            </div>
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 fw-bold">Links</h6>
+              <p>
+                <a
+                  href="index.html#inicio"
+                  class="text-white link-warning link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-bold"
+                  >Inicio</a
+                >
+              </p>
+              <p>
+                <a
+                  href="index.html#negocios"
+                  class="text-white link-warning link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-bold"
+                  >Para negocios</a
+                >
+              </p>
+              <p>
+                <a
+                  href="index.html#usuario"
+                  class="text-white link-warning link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-bold"
+                  >Para ti</a
+                >
+              </p>
+              <p>
+                <a
+                  href="index.html#preguntas"
+                  class="text-white link-warning link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-bold"
+                  >Preguntas</a
+                >
+              </p>
+              <p>
+                <a
+                  href="index.html#descarga"
+                  class="text-white link-warning link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover fw-bold"
+                  >Descarga</a
+                >
+              </p>
+            </div>
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 fw-bold">contáctanos</h6>
+              <p>
+                <i class="fas fa-home mr-3"></i> Av. Cuba 152, Jesús María, Perú
+              </p>
+              <p><i class="fas fa-envelope mr-3"></i> info@mesafacil.pe</p>
+              <p><i class="fas fa-phone mr-3"></i> +51 963 585 875</p>
+            </div>
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 fw-bold">nuestras redes</h6>
+
+              <!-- Facebook -->
+              <a
+                class="btn btn-primary btn-floating m-1"
+                style="background-color: #3b5998"
+                href="#!"
+                role="button"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+
+              <!-- Twitter -->
+              <a
+                class="btn btn-primary btn-floating m-1"
+                style="background-color: #55acee"
+                href="#!"
+                role="button"
+                ><i class="fab fa-twitter"></i
+              ></a>
+
+              <!-- Google -->
+              <a
+                class="btn btn-primary btn-floating m-1"
+                style="background-color: #dd4b39"
+                href="#!"
+                role="button"
+                ><i class="fab fa-google"></i
+              ></a>
+
+              <!-- Instagram -->
+              <a
+                class="btn btn-primary btn-floating m-1"
+                style="background-color: #ac2bac"
+                href="#!"
+                role="button"
+                ><i class="fab fa-instagram"></i
+              ></a>
+
+              <!-- Linkedin -->
+              <a
+                class="btn btn-primary btn-floating m-1"
+                style="background-color: #0082ca"
+                href="#!"
+                role="button"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <!-- Github -->
+              <a
+                class="btn btn-primary btn-floating m-1"
+                style="background-color: #333333"
+                href="#!"
+                role="button"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center mt-3 p-4 fs-5"
+        style="background-color: rgba(0, 0, 0, 0.2)"
+      >
+        © 2024 diseñado por:
+        <a
+          class="text-white link-warning link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+          href="https://www.instagram.com/marqu1nh0xd/"
+          >Marcos Gamero</a
+        >
+        y
+        <a
+          class="text-white link-warning link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+          href="https://www.instagram.com/trujillo.luis.a/"
+          >Luis Trujillo</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- FOOTER -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
